@@ -24,6 +24,12 @@ public class Calculadora {
         this.numeroSerie = numeroSerie;
     }
 
+    public Calculadora(String numeroSerie) {
+        this.numeroSerie = numeroSerie;
+    }
+    
+    
+
     //Metodos
     
     public static void suma(double n1, double n2) {
@@ -64,9 +70,6 @@ public class Calculadora {
         return numeroSerie;
     }
 
-    public void setNumeroSerie(String numeroSerie) {
-        this.numeroSerie = numeroSerie;
-    }
-    
+  
     
 }
